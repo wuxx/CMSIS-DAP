@@ -59,7 +59,7 @@ typedef const struct
 #else
 	#error "Unknown compiler"
 #endif
-
+//#define USE_DEBUG
 #if   defined( USE_DEBUG )
 	#define DEBUG(...)	printf(__VA_ARGS__)
 	#define INFO(...)	printf(__VA_ARGS__)
