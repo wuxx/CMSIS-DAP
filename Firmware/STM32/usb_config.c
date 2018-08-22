@@ -116,10 +116,10 @@
 //     </e>
 //   </h>
 #define USBD_STRDESC_LANGID         0x0409
-#define USBD_STRDESC_MAN            L"X893 ARM"
-#define USBD_STRDESC_PROD           L"CMSIS-DAP"
+#define USBD_STRDESC_MAN            L"JYD ARM"
+#define USBD_STRDESC_PROD           L"CMSIS-DAP-JYD"
 #define USBD_STRDESC_SER_ENABLE     1
-#define USBD_STRDESC_SER            L"0001A0000000"
+#define USBD_STRDESC_SER            L"0001A0000001"
 
 //   <e0> Class Support
 //     <i> Enables USB Device Class specific Requests
